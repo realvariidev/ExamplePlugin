@@ -3,7 +3,7 @@ name: ExamplePlugin
 main: cn.nukkit.exampleplugin.ExamplePlugin
 #remember version and api is string, don't write it like this: 1.0.0, or there will be an exception
 version: "1.0.0"
-api: ["1.0.5"]
+api: ["1.0.5"] # <-- Make sure that this is the same as the current API version
 load: POSTWORLD
 author: Nukkit Project
 # Authors and author will be added together in one list.
